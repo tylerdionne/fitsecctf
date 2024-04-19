@@ -4,8 +4,8 @@
 
 ## Chal 3:  
 Get hashcat scrapers: https://github.com/stricture/hashstack-server-plugin-hashcat/blob/master/scrapers/office2hashcat.py  
-python3 office2hashcat.py TOP_SECRET_PRESENTATION.pptx > officehash.txt  
-hashcat officehash.txt rockyou.txt  
+$ python3 office2hashcat.py TOP_SECRET_PRESENTATION.pptx > officehash.txt  
+$ hashcat officehash.txt rockyou.txt  
 Pass: dieold718  
 
 ## Chal 4:  
